@@ -11,7 +11,7 @@ let found = false;
 
 for (let i = 0; i < users.length; i++) {
     if (users[i].name.toLowerCase() === searchName.toLowerCase()) {
-        alert(`User Found!\nName: ${users[i].name}\nRoll No: ${users[i].rollNo}`);
+        alert("User Found!\nName: " + users[i].name + "\nRoll No: " + users[i].rollNo);
         found = true;
         break;
     }
